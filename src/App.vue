@@ -679,9 +679,9 @@ main {
     width: 70vw !important; 
     height: 30vh !important;
     margin: 0 auto;
-    border-radius: 100%;
+    border-radius: 0%;
     border: 0;
-    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.477);
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.477);
     margin-top: 5vh;
     margin-bottom: 3vh;
     margin-left: 14vw;
