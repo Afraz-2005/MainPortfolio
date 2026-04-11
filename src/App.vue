@@ -565,13 +565,17 @@ main {
 }
 
 .section-hero {
+  overflow: hidden;
+  flex-direction: column;
+  display: flex;
+  position: relative;
   padding-top: 90px;
   padding-bottom: 70px;
-  min-height: calc(100vh - 90px);
+  min-height: calc(100vh);
 }
 
 .hero-top {
-  display: grid;
+  /* display: grid; */
   grid-template-columns: 1.1fr 0.9fr;
   gap: 60px;
   align-items: start;
@@ -643,15 +647,18 @@ main {
 }
 
 .hero-brand {
+  bottom: -20px;
   margin: 0;
+  padding-bottom: 0;
+  /* margin: 10vh; */
   font-size: clamp(5.5rem, 12vw, 11rem);
   letter-spacing: -0.11em;
-  line-height: 0.9;
+  line-height: 0.10;
   font-weight: 900;
   padding-left: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 848px) {
   .section-hero {
     padding-top: 4px; /* Leave room for your thin navbar */
     min-height: auto;
