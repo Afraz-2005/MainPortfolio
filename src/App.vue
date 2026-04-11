@@ -653,7 +653,7 @@ main {
 
 @media (max-width: 768px) {
   .section-hero {
-    padding-top: 30px; /* Leave room for your thin navbar */
+    padding-top: 4px; /* Leave room for your thin navbar */
     min-height: auto;
     overflow: hidden;
   }
@@ -844,6 +844,7 @@ main {
   display: flex;
   justify-content: center;
 }
+
 
 .ghost-button {
   padding: 14px 32px;
