@@ -1,6 +1,6 @@
 # Portfolio Website
 
-A Vue.js portfolio website replicating https://www.diegoliv.works/
+A Vue.js portfolio website
 
 ## Project Setup
 
