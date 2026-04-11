@@ -653,7 +653,7 @@ main {
 
 @media (max-width: 768px) {
   .section-hero {
-    padding-top: 80px; /* Leave room for your thin navbar */
+    padding-top: 30px; /* Leave room for your thin navbar */
     min-height: auto;
     overflow: hidden;
   }
