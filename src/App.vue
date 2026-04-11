@@ -696,7 +696,8 @@ main {
     margin-left: 8vw;
     margin-right: 10vw;
     font-family: Switzer;
-    font-weight: 900, bold;
+    font-weight: 1500 !important;
+    opacity: 0;
   }
 }
 
