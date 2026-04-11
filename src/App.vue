@@ -664,12 +664,14 @@ main {
     align-items: center;
     text-align: center;
     gap: 30px;
+    
   }
 
   .hero-copy h1 {
     font-size: 2.5rem; /* Shrink "Creating Apps & Designs" */
     line-height: 1.1;
-    
+    font-family: Switzer;
+    font-weight: 400;
   }
 
   /* Shrink the Circle Hero Picture */
@@ -693,6 +695,8 @@ main {
     letter-spacing: -2px;
     margin-left: 8vw;
     margin-right: 10vw;
+    font-family: Switzer;
+    font-weight: 600;
   }
 }
 
