@@ -680,9 +680,8 @@ main {
     border-radius: 0%;
     border: 2px;
     margin-top: 10vh;
-    /* margin-left: 10vw;
-    margin-right: 10vw; */
-    margin: 9vw;
+    margin-left: 13vw;
+    /* margin: 9vw; */
     
   }
 
@@ -691,7 +690,7 @@ main {
     font-size: 18vw !important; /* Uses viewport width so it never overflows */
     margin-top: -20px; /* Pull it up slightly to overlap beautifully */
     letter-spacing: -2px;
-    margin-left: 7vw;
+    margin-left: 8vw;
     margin-right: 10vw;
   }
 }
