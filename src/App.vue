@@ -679,7 +679,8 @@ main {
     margin: 0 auto;
     border-radius: 0%;
     border: 2px;
-    margin-top: 10vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
     margin-left: 13vw;
     /* margin: 9vw; */
     
