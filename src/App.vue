@@ -164,8 +164,8 @@
 
 <script>
 import { reactive, ref, computed, onMounted, onUnmounted } from 'vue'
-import heroImage from '../2.jpg'
-import avatar1 from '../DK.png'
+import heroImage from '../heroImage.jpg'
+import DK from '../DK.png'
 // import avatar2 from '../assets/avatar2.jpg'
 // import avatar3 from '../assets/avatar3.jpg'
 
@@ -315,7 +315,7 @@ onUnmounted(() => {
         name: 'Tawkir Taki Tajwar',
         role: 'CEO-Dhakaiya Kitchen',
         quote:'Afraz delivers splendid, premium designs that truly resonate. Every detail feels intentional and meaningful, elevated by smooth interactions. A top-tier experience that perfectly balances modern aesthetic with clear, high-impact functional purpose.',
-        image: avatar1,
+        image: DK,
         url: 'https://www.facebook.com/people/Dhakaiya-Kitchen-Catering-Services/61576047194774/'
       },
       {
