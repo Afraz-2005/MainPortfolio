@@ -696,7 +696,7 @@ main {
     margin-left: 8vw;
     margin-right: 10vw;
     font-family: Switzer;
-    font-weight: 600;
+    font-weight: 900, bold;
   }
 }
 
