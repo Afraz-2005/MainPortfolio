@@ -473,13 +473,11 @@ header {
 }
 
 .nav-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 26px 40px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  gap: 24px;
+  align-items: center;
+  padding: 20px 40px; /* Standard desktop height */
+  transition: all 0.3s ease;
 }
 
 .nav-logo {
@@ -517,6 +515,43 @@ header {
   background: rgba(255, 255, 255, 0.12);
   border-color: rgba(255, 255, 255, 0.95);
   transform: translateY(-1px);
+}
+/* MOBILE VIEW (Screens 768px and smaller) */
+@media (max-width: 768px) {
+  header {
+    background: rgba(0, 0, 0, 0.8); /* Ensures text is visible over background images */
+    backdrop-filter: blur(10px);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .nav-container {
+    padding: 10px 15px; /* This makes the navbar "very thin" */
+  }
+
+  /* 1. Hide the middle links */
+  .nav-links {
+    display: none;
+  }
+
+  /* 2. Style the Logo */
+  .nav-logo {
+    font-size: 1.1rem;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+  }
+
+  /* 3. Style the "Start a Project" button */
+  .nav-button {
+    font-size: 0.75rem; /* Smaller font for mobile */
+    padding: 6px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+  }
 }
 
 main {
@@ -614,6 +649,51 @@ main {
   line-height: 0.9;
   font-weight: 900;
   padding-left: 40px;
+}
+
+@media (max-width: 768px) {
+  .section-hero {
+    padding-top: 80px; /* Leave room for your thin navbar */
+    min-height: auto;
+    overflow: hidden;
+  }
+
+  /* Stack the subtitle/title and the circle image */
+  .hero-top {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+  }
+
+  .hero-copy h1 {
+    font-size: 2.5rem; /* Shrink "Creating Apps & Designs" */
+    line-height: 1.1;
+    
+  }
+
+  /* Shrink the Circle Hero Picture */
+  .hero-image {
+    width: 70vw !important; 
+    height: 30vh !important;
+    margin: 0 auto;
+    border-radius: 0%;
+    border: 2px;
+    margin-top: 10vh;
+    /* margin-left: 10vw;
+    margin-right: 10vw; */
+    margin: 9vw;
+    
+  }
+
+  /* Shrink the Big AFRAZ text */
+  .hero-brand {
+    font-size: 18vw !important; /* Uses viewport width so it never overflows */
+    margin-top: -20px; /* Pull it up slightly to overlap beautifully */
+    letter-spacing: -2px;
+    margin-left: 7vw;
+    margin-right: 10vw;
+  }
 }
 
 .slide-fade-enter-active,
