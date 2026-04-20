@@ -319,16 +319,16 @@ onUnmounted(() => {
         url: 'https://www.facebook.com/people/Dhakaiya-Kitchen-Catering-Services/61576047194774/'
       },
       {
-        name: 'Emily',
-        role: 'Marketing Head',
+        name: 'Rafi Irtiza Rasa',
+        role: 'Software Engineer, Max Foundation',
         quote:
-          'I’m genuinely impressed with the final result of the portfolio website. It’s visually appealing, easy to navigate, and does an amazing job presenting my projects. The attention to detail and smooth interactions really set it apart. I’ve already seen a boost in engagement.'
+          'During the Intership, Afraz actively contributed to the development of the Child Health Data Dashboard, a web application designed to facilitate data-driven decision-making for child health initiatives. His primary role focused on front-end development.'
       },
       {
-        name: 'William',
-        role: 'Founder',
+        name: 'Riad Imam Mahmud',
+        role: 'Founder, MicroGrow Social',
         quote:
-          'I’m genuinely impressed with the final result of the portfolio website. It’s visually appealing, easy to navigate, and does an amazing job presenting my projects. The attention to detail and smooth interactions really set it apart. I’ve already seen a boost in engagement.'
+          'I’m genuinely impressed with the final result of the organisation website. It’s visually appealing, easy to navigate, and does an amazing job presenting my projects. The attention to detail and smooth interactions really set it apart. I’ve already seen a boost in engagement.'
       }
     ]
 
